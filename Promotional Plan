@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<title>Art Valley</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/originals/55/21/47/552147941dd9f60fe2b7b79ab94a4648.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Art Valley</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> FORMS</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Forms</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px"> 	
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Know more about us!</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+   
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT OUR WORKSHOP</h3>
+  <p class="w3-center w3-large">Key features of our workshop</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <b><p class="w3-large">About</p></b>
+      <p>This workshop is designed for people who want to engage their abilities in terms of digital arts and also for people who want to foster imagination and creativity. </p>
+    </div>
+    <div class="w3-quarter">
+      <b><p class="w3-large">Theme</p></b>
+      <p>The theme of our workshop is yet to be revealed as it is up to our attendees which helps them to be more interested and comfortable.
+</p>
+    </div>
+    <div class="w3-quarter">
+      <b><p class="w3-large">Goals</p></b>
+      <p>Our expectation is that as students leave, they will be enthusiastic, positive in their skills, and eager to learn more. </p>
+    </div>
+    <div class="w3-quarter">
+      <b><p class="w3-large">Participants</p></b>
+      <p>We welcome people from 12 to 15 because it would be easier for us to educate them and understand them better. This also creates an environment where they can be themselves without any problems and just overall fun without taking out learning.
+</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>ART VALLEY</h3>
+	  <p>We believe that art history is an essential element of understanding art as well as the perception of art. Through encouragement and support, we develop confidence in our participants. Our expectation is that as students leave, they will be enthusiastic, positive in their skills, and eager to learn more. The theme of our workshop is yet to be revealed as it is up to our attendees which helps them to be more interested and comfortable.
+</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Arts</a></p>
+	 
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://i.pinimg.com/564x/b0/f0/9e/b0f09eeb2e46bc85f9d1bf447ac0c626.jpg" alt="Art" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">Behind the workshop</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://i.pinimg.com/564x/61/b6/4d/61b64d720e92da6984735aad19ac11c8.jpg" alt="Rose" style="width:100%">
+        <div class="w3-container">
+          <h3>Rose</h3>
+          <p class="w3-opacity">Facilitator</p>
+          <p></p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://i.pinimg.com/564x/82/4b/02/824b028d379cbaff55d0494ce99eae77.jpg" alt="Shan" style="width:100%">
+        <div class="w3-container">
+          <h3>Gurshan</h3>
+          <p class="w3-opacity">Spokeperson</p>
+          <p></p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://i.pinimg.com/564x/82/f9/de/82f9de741200dcb1dd76b8ec3ab39dab.jpg" alt="Lon" style="width:100%">
+        <div class="w3-container">
+          <h3>Allondra</h3>
+          <p class="w3-opacity">Researcher</p>
+          
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://i.pinimg.com/750x/f0/c2/32/f0c2327fee507178da51da31001897c3.jpg" alt="Ck" style="width:100%">
+        <div class="w3-container">
+          <h3>Clark</h3>
+          <p class="w3-opacity">Scribe</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Sample Work</h3>
+  <p class="w3-center w3-large">Different art types</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/236x/31/0b/1e/310b1efc491f5ae4a51864521eb42188.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="PoP art">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/236x/fa/04/5f/fa045f83a45864999c33f5b71bd71242.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Manga art">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/236x/79/e4/87/79e4878c980a0e0b02e7ceddffb33657.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Minimalist">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/236x/93/74/02/937402e596d972c9de7a4a5134b3dff8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Vaporwave Inspired">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/564x/6d/87/e0/6d87e0bad223b262b914b0cd55aa2fc5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="old weird inspired">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/564x/ba/ba/28/baba28b89b60d97c9140bdc74c865519.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="vintage inspired">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/236x/0a/c1/f4/0ac1f47c6392f28b62b67ff60e1b97f2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="trippy art">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://i.pinimg.com/236x/df/e0/41/dfe041b061c90f7d0e5fc4de5e4ec4f5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Kawaii art">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">Forms</h3>
+  <center>    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" src="https://docs.google.com/document/d/1VxKG1zlJ1xPNAmOGVKNBtJUhdqD75bGBmTD3HUW8zbs/edit">Click here to join</a></p></center>
+  <p class="w3-center w3-large">Join our workshop and Let's have fun!!</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Apec Schools</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: ap.kristinerose.montiel@apecschools.edu.ph</p>
+    <br>
+    
+    <!-- Image of location/map -->
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Go back</a>
+  
+  <p>For further information<a href="https://docs.google.com/document/u/1/d/1VxKG1zlJ1xPNAmOGVKNBtJUhdqD75bGBmTD3HUW8zbs/edit" title="W3.CSS" target="_blank" class="w3-hover-text-green">click here</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
